@@ -9,7 +9,7 @@ __Packages__: `PyTorch`, `Tensorflow`, `GSLIB`, `numpy`, `sklearn`, `matplotlib`
 
 The detaield content include:
 - deep learning models: CNN.py, ViT.py, SwinT.py
-- data preparation: traning & testing data preparation
+- data preparation: training & testing data preparation
 - training: train.py
 ## Acknowledgements
 This work is supported by Digital Reservoir Characterization Technology (DIRECT) Industry Affiliate Program at the University of Texas at Austin.
