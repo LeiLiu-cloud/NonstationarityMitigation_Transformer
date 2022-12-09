@@ -4,10 +4,12 @@
 * The benchmark results are from the convolutional neural network (CNN) model. The ViT and SwinT models are based on original ViT and SwinT model with some modifications for the regression task.
 
 ## Implementation & Content
-Software: Python
-Packages: Pytorch, GSLIB,
+__Software__: `Python`
+__Packages__: `PyTorch`, `Tensorflow`, `GSLIB`, `numpy`, 'sklearn', `matplotlib`
+
+The detaield content include:
 - deep learning models: CNN.py, ViT.py, SwinT.py
-- data: traning & testing data preparation
+- data preparation: traning & testing data preparation
 - training: train.py
 ## Acknowledgements
 This work is supported by Digital Reservoir Characterization Technology (DIRECT) Industry Affiliate Program at the University of Texas at Austin.
