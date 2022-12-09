@@ -3,6 +3,9 @@
 Created on Thu Mar  3 21:55:57 2022
 
 @author: lei liu
+
+This is an training exmaple for ViT.py; 
+To train SwinT, load SwinT.py and make corresponding modifications for model initialization
 """
 import time
 import torch
