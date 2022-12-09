@@ -5,7 +5,7 @@
 
 ## Implementation & Content
 __Software__: `Python`
-__Packages__: `PyTorch`, `Tensorflow`, `GSLIB`, `numpy`, 'sklearn', `matplotlib`
+__Packages__: `PyTorch`, `Tensorflow`, `GSLIB`, `numpy`, `sklearn`, `matplotlib`
 
 The detaield content include:
 - deep learning models: CNN.py, ViT.py, SwinT.py
