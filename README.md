@@ -145,3 +145,4 @@ This work is supported by Digital Reservoir Characterization Technology (DIRECT)
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>mpyrcz@austin.utexas.edu</a> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/GeostatsGuy">@GeostatsGuy</a> <br>
 </p>
+<br>
