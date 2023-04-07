@@ -105,9 +105,9 @@ Please also install other required packages when there is any missing (see detai
   </li>
 <p align="justify">  
   
-* CNN model is implemented with tensorflow packages. train_CNN.ipynb shows how to create your own CNN model and train it with your training data. 
+* CNN model is implemented with tensorflow packages. <b>train_CNN.ipynb</b> shows how to create your own CNN model and train it with your training data. 
       
-* Vision transformers are implemented using Pytorch. train_vision_transformers.ipynb demonstrates the loading of ViT/SwinT architectures (Vit.py & Swin.py), how to train the ViT/SwinT model. To visulzie the training progress, please couple it with tensorboard summary or wandb writer up to yourself.  
+* Vision transformers are implemented using Pytorch. <b>train_vision_transformers.ipynb</b> demonstrates the loading of ViT/SwinT architectures (<b>ViT.py</b> & <b>SwinT.py</b>), how to train the ViT/SwinT model. To visulzie the training progress, please couple it with tensorboard summary or wandb writer up to yourself.  
       
 * Generally we need to train the DL models with a large number of training data. Here for easier demonstration, we randomly cretae single data (training data size =1) for both training and validation. In practical useage, you should train the model with data generated in Data Preparation.ipynb.
 </p>
