@@ -23,13 +23,13 @@
 
 <p align="justify"> 
  
-* Spatial nonstationarity, ubiquitous in spatial settings, are generally not acocunted-for or even mitigated in deep learning (DL) applictaions for spatial phenomenon.
+* Spatial nonstationarity, ubiquitous in spatial settings, are generally not accounted-for or even mitigated in deep learning (DL) applications for spatial phenomenon.
 
 * We design a workflow to explore the impacts of nonstationarity on DL prediction performance:
   1. DL is trained with stationary SGS realizations of propoerty of interest (we use porosity for example) with variogram range labeled.
-  2. Test the DL prediction performance using nonstationary realiztaions (investigate the impacts of nonstationarity).
+  2. Test the DL prediction performance using nonstationary realizations (investigate the impacts of nonstationarity).
 
-* The benchmark results are obatined by training convolutional neural network (CNN) model, which is commonly used for computer vision (CV) tasks due to its performance in leanring spatial hierarchies of features. 
+* The benchmark results are obtained by training convolutional neural network (CNN) model, which is commonly used for computer vision (CV) tasks due to its performance in learning spatial hierarchies of features. 
 
 * Then we explore Vision Transformer (ViT) and Swin Transformer (SwinT) models for spatial nonstationarity mitigation. The original ViT and SwinT architectures are modifed for the predictive tasks (regression tasks).
 
@@ -93,7 +93,7 @@ Please also install other required packages when there is any missing (see detai
 <ol>
   <li>
     <p align="justify"> 
-      Prepare the training data >>> statioanry SGS realizations (see Data Preparation.ipynb)
+      Prepare the training data >>> stationary SGS realizations (see Data Preparation.ipynb)
       Train the same models - Decision Tree, k Nearest Neighbors, and Random Forest using the preprocessed data obtained from topological data analysis and compare the
       performance against the results obtained by Weiss et. al.
     </p>
@@ -109,7 +109,7 @@ Please also install other required packages when there is any missing (see detai
       
 * Vision transformers are implemented using Pytorch. <b>train_vision_transformers.ipynb</b> demonstrates the loading of ViT/SwinT architectures (<b>ViT.py</b> & <b>SwinT.py</b>), how to train the ViT/SwinT model. To visulzie the training progress, please couple it with tensorboard summary or wandb writer up to yourself.  
       
-* Generally we need to train the DL models with a large number of training data. Here for easier demonstration, we randomly cretae single data (training data size =1) for both training and validation. In practical useage, you should train the model with data generated in Data Preparation.ipynb.
+* Generally we need to train the DL models with a large number of training data. Here for easier demonstration, we randomly create single data (training data size =1) for both training and validation. In practical useage, you should train the model with data generated in Data Preparation.ipynb.
 </p>
 </ol>
 </p>
